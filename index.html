@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main class="app-container">
+
+    <!-- Weather Card -->
+    <section class="weather-card">
+
+      <h1 class="app-title">🌤 Weather Dashboard</h1>
+
+      <!-- Weather Form -->
+      <form id="weather-form" class="weather-form">
+
+        <div class="input-group">
+          <input type="text" id="city" name="city" placeholder="Enter city name..." autocomplete="off" required />
+
+          <button type="submit">
+            Search
+          </button>
+        </div>
+
+      </form>
+
+      <!-- Output Section -->
+      <div id="output" class="weather-output">
+
+        <!-- Example Output -->
+        <!--
+                <div class="weather-info">
+                    <h2>New York</h2>
+                    <p>🌡 Temperature: 28°C</p>
+                    <p>☁ Condition: Cloudy</p>
+                    <p>💨 Wind Speed: 12 km/h</p>
+                </div>
+                -->
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
