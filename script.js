@@ -2,7 +2,7 @@ const form = document.getElementById('weather-form');
 const cityInput = document.getElementById('city');
 const output = document.getElementById('output');
 
-const API_KEY = 'dd0bc08e552f4acbade70912260706'; // Replace with your real OpenWeatherMap API key
+const API_KEY = 'bd5e378503939ddaee76f12ad7a97608'; // Replace with your real OpenWeatherMap API key
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
